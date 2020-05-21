@@ -1,0 +1,22 @@
+{
+    "name": "solwin/tablerateshipping",
+    "description": "Magento 2 TableRateShipping Module.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\TableRateShipping\\": ""
+        }
+    }
+}
